@@ -34,6 +34,22 @@ The **AI FAQ Assistant** is a web application that allows users to ask natural l
 - An AWS account with access to Bedrock
 - API access to Anthropic's Claude 3.5 Sonnet via AWS Bedrock
 
+  ## Model Integration with AWS Bedrock
+
+The AI FAQ Assistant uses **Claude 3.5 Sonnet** via **AWS Bedrock** to process user queries. The model ID used is:
+
+**`anthropic.claude-3-5-sonnet-20240620-v1:0`**
+
+This model ID ensures the app uses **Claude 3.5 Sonnet** to generate accurate, intelligent responses.
+
+### How It Works:
+- The model ID is integrated in `backend.py`.
+- It’s passed in API requests to AWS Bedrock for handling queries.
+- Ensure your AWS CLI is configured with valid credentials using:
+  ```bash
+  aws configure
+
+
 ### Setup Instructions
 
 ```bash
