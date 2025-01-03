@@ -36,8 +36,9 @@ The **AI FAQ Assistant** is a web application that allows users to ask natural l
 
 ### Setup Instructions
 
-#### 1. Clone the Repository
 ```bash
+#### 1. Clone the Repository
+
 git clone https://github.com/your-username/ai-faq-assistant.git
 cd ai-faq-assistant
 
