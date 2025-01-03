@@ -6,7 +6,7 @@ def get_claude_answer(question):
     client = boto3.client('bedrock-runtime', region_name='us-east-1')
 
     # Correct model ID for Claude 3.5 Sonnet
-    model_id = "anthropic.claude-3-5-sonnet-20240620-v1:0"
+    model_id = "Enter the model ID"
 
     # Prepare the messages with the question
     messages = [
