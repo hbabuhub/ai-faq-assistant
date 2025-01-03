@@ -43,31 +43,30 @@ The **AI FAQ Assistant** is a web application that allows users to ask natural l
    ```bash
    git clone https://github.com/your-username/ai-faq-assistant.git
    cd ai-faq-assistant
-Set up a virtual environment:
+## Setup Instructions
 
-bash
-Copy code
+### Set up a Virtual Environment
+
+```bash
 python3 -m venv env
 source env/bin/activate
-Install dependencies:
-
+Install Dependencies
 bash
 Copy code
 pip install -r requirements.txt
-Configure AWS CLI:
-
+Configure AWS CLI
 bash
 Copy code
 aws configure
 Provide your AWS access key, secret key, and preferred region.
 
 How to Run the Application
-Run the Streamlit App:
-
+Run the Streamlit App
 bash
 Copy code
 streamlit run app.py
-Open the App in Your Browser: Once the app is running, Streamlit will provide a local URL (e.g., http://localhost:8501). Open it in your browser to interact with the assistant.
+Open the App in Your Browser
+Once the app is running, Streamlit will provide a local URL (e.g., http://localhost:8501). Open it in your browser to interact with the assistant.
 
 Testing the Backend
 To test the backend separately, use the test_backend.py script:
@@ -75,3 +74,7 @@ To test the backend separately, use the test_backend.py script:
 bash
 Copy code
 python test_backend.py
+vbnet
+Copy code
+
+This version is ready to include in your README or documentation file! Let me know i
